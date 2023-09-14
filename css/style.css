@@ -28,6 +28,11 @@
 
 /* FLEX UTILITIES */
 
+.d-flex{
+    display: flex;
+    flex-flow: row wrap;
+}
+
 
 /* HEADER */
 
@@ -46,7 +51,6 @@ main{
 }
 
 .case-cards{
-    padding: 10px 50px 20px 50px;
     background-color: rgb(23, 34, 106);
     width: 80%;
     margin: 0 auto;
@@ -55,6 +59,12 @@ main{
 .card{
     width: calc(100% / 7);
     background-color: #e91727;
+    padding: 5px;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
 }
 
 /* FOOTER */
