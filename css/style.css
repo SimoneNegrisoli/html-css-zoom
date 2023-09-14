@@ -28,22 +28,22 @@
 
 /* FLEX UTILITIES */
 
-/* MAIN */
-main{
-    padding: 5px;
-    height: calc(100vh - 90px) ;
+
+/* HEADER */
+
+header{
     background-color: var(--color-black);
+    height: 50px;
 }
 
-.cards{ 
-    width: calc(100vw / 7);
 
-}
+/* MAIN */
 
-.card{
-  width: 25vw;
-  height: calc(25vw / 2);
-  background-color: antiquewhite;
+main{
+    background-color: var(--color-black);
+    height: calc(100vh - 140px);
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /* FOOTER */
