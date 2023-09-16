@@ -21,9 +21,7 @@
     height: 100vh;
     color: var(--color-white);
 }
-.debug{
-    border: 1px solid rgb(234, 14, 14);
-}
+
 a{
     text-decoration: none;
 }
@@ -85,6 +83,8 @@ main{
     width: calc(100% / 7);
     padding: 10px 5px ;
     position: relative;
+    min-width: 150px;
+
 }
 
 .card img{
